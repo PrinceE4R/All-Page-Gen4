@@ -36,8 +36,7 @@ Light mode: #dedede | Dark mode: #1a1a1a
 ### Key Features:
 
 - ▦ **Enhanced App Selector**: Personalized application management system
-- ◯ **Circular Control Hub**: Comprehensive widget integration
-  - Included: Clock, Music Player, Theme Controls, System Information
+- ◯ **Circular Control Hub**: Comprehensive widget integration which includes Clock, Music Player, Theme Controls, System Information
 - ≋ **Dynamic Theming Engine**: Wallpaper-integrated color schemes
 - ⟨⟩ **Flexible UI Elements**: Code-level control over interface geometry
 
