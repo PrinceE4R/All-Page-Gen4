@@ -1,0 +1,33 @@
+:root {
+/*
+    --demo-light-primary: #DEDEDE;
+    --demo-light-secondary: #1A1A1A;
+    --demo-dark-primary: #1A1A1A;
+    --demo-dark-secondary: #DEDEDE;
+*/
+
+    --system-light-primary: #DEDEDE;
+    --system-light-secondary: #1A1A1A;
+    --system-dark-primary: #1A1A1A;
+    --system-dark-secondary: #DEDEDE;
+
+    --leaf-light-primary: #E0ECDE;
+    --leaf-light-secondary: #2D6974;
+    --leaf-dark-primary: #121816;
+    --leaf-dark-secondary: #9ed3be;
+
+    --snow-light-primary: #D8E8EF;
+    --snow-light-secondary: #1E5B8A;
+    --snow-dark-primary: #12121a;
+    --snow-dark-secondary: #61a5f8;
+
+    --dune-light-primary: #FFFAEF;
+    --dune-light-secondary: #903909;
+    --dune-dark-primary: #1c1502;
+    --dune-dark-secondary: #d8cca7;
+
+    --drago-light-primary: #F8EFFF;
+    --drago-light-secondary: #6020A4;
+    --drago-dark-primary: #0A0614;
+    --drago-dark-secondary: #AF8EF3;
+}

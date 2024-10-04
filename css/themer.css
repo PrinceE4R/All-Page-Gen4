@@ -1,0 +1,80 @@
+.menu-container {
+    position: relative;
+  }
+  
+  .main-icon {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background: var(--dark-colour);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid var(--light-colour);
+    z-index: 2;
+    position: relative;
+  }
+  
+  .options-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 180px;
+    height: 180px;
+    border: 5px solid var(--light-colour);
+    border-radius: 50%;
+    pointer-events: none;
+    background-color: var(--dark-colour);
+    transform: translate(-50%, -50%) scale(0);
+    transition: opacity 0.3s, transform 0.3s;
+    transform-origin: center;
+  }
+  
+  .options-circle.active {
+    opacity: 1;
+    pointer-events: all;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .option {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: var(--dark-colour);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 0px solid var(--light-colour);
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0);
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  
+  .option:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+
+  .options-circle.active .option {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+    transition-delay: 0.03s;
+  }
+
+  .option svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .option:hover svg {
+    transform: scale(1.2);
+    transition: transform 0.15s ease-in-out;
+  }
+  
+
+  .main-icon svg {
+    width: 40px;
+    height: 40px;
+  }

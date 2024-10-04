@@ -1,0 +1,31 @@
+:root {
+    --batman-light-primary: #a4683d;
+    --batman-light-secondary: #170F0C;
+    --batman-dark-primary: #14110B;
+    --batman-dark-secondary: #EB8632;
+
+    --bladerunner-light-primary: #C8D1BB;
+    --bladerunner-light-secondary: #0E151A;
+    --bladerunner-dark-primary: #0E151A;
+    --bladerunner-dark-secondary: #C8D1BB;
+
+    --matrix-light-primary: #11A249;
+    --matrix-light-secondary: #011202;
+    --matrix-dark-primary: #011202;
+    --matrix-dark-secondary: #11A249;
+
+    --cyberpunk-light-primary: #FEF72D;
+    --cyberpunk-light-secondary: #010010;
+    --cyberpunk-dark-primary: #170B0B;
+    --cyberpunk-dark-secondary: #F3E600;
+
+    --synthwave-light-primary: #f8c9ff;
+    --synthwave-light-secondary: #320639;
+    --synthwave-dark-primary: #130912;
+    --synthwave-dark-secondary: #fe67c8;
+
+    --minecraft-light-primary: #60a435;
+    --minecraft-light-secondary: #271b0e;
+    --minecraft-dark-primary: #09284f;
+    --minecraft-dark-secondary: #77d0fa;
+}

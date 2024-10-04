@@ -1,0 +1,11 @@
+#wallon {
+    transition: all 0.3s ease;
+    z-index: 2;
+    display: none; /* Hide wallon initially */
+  }
+  
+  #walloff {
+    transition: all 0.3s ease;
+    z-index: 1;
+    display: inline; /* Show walloff initially */
+  }
