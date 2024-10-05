@@ -27,7 +27,7 @@
     pointer-events: none;
     background-color: var(--dark-colour);
     transform: translate(-50%, -50%) scale(0);
-    transition: all var(--smooth);
+    transition: all var(--medium);
     transform-origin: center;
   }
   
@@ -50,7 +50,7 @@
     border: 0px solid var(--light-colour);
     opacity: 0;
     transform: translate(-50%, -50%) scale(0);
-    transition: all var(--smooth) ease;
+    transition: all var(--medium) ease;
   }
   
   .option:hover {
