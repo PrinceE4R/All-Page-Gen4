@@ -16,7 +16,7 @@
     z-index: 1;
     top: -50%;
     opacity: 0;
-    transition: all 0.15s ease;
+    transition: all var(--quick) ease;
 }
 .details:hover {
     opacity: 1;

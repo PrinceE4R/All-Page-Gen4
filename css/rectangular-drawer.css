@@ -6,7 +6,7 @@
   z-index: 5;
   width: 12vh;
   height: 12vh;
-  transition: all 0.3s ease;
+  transition: all var(--smooth) ease;
   display: none;
 }
 
@@ -23,7 +23,7 @@
   width: 470px;
   height: 100vh;
   z-index: 5;
-  transition: all 0.3s ease;
+  transition: all var(--smooth) ease;
 }
 
 .rectangle {
@@ -35,6 +35,7 @@
   height: 100%;
   background-color: var(--dark-colour);
   border-right: 5px solid var(--light-colour);
+  transition: all var(--smooth) ease;
 }
 
 .drawer-apps {
@@ -44,6 +45,7 @@
   height: 100vh;
   top: 2%;
   left: 2%;
+  transition: all var(--smooth) ease;
 }
 
 .rectangle-shadow {
@@ -55,6 +57,7 @@
   background-color: black;
   z-index: 4;
   border-radius: var(--br);
+  transition: all var(--smooth) ease;
 }
 
 .drawer-bar2 {

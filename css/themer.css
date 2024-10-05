@@ -27,7 +27,7 @@
     pointer-events: none;
     background-color: var(--dark-colour);
     transform: translate(-50%, -50%) scale(0);
-    transition: opacity 0.3s, transform 0.3s;
+    transition: all var(--smooth);
     transform-origin: center;
   }
   
@@ -50,7 +50,7 @@
     border: 0px solid var(--light-colour);
     opacity: 0;
     transform: translate(-50%, -50%) scale(0);
-    transition: opacity 0.3s, transform 0.3s;
+    transition: all var(--smooth) ease;
   }
   
   .option:hover {
@@ -60,17 +60,17 @@
   .options-circle.active .option {
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
-    transition-delay: 0.03s;
+    transition-delay: 0.05s;
   }
 
   .option svg {
     width: 30px;
-    height: 30px;
+    height: 27px;
+    transition: all var(--smooth) ease;
   }
 
   .option:hover svg {
     transform: scale(1.2);
-    transition: transform 0.15s ease-in-out;
   }
   
 

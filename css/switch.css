@@ -5,7 +5,7 @@
     background-color: var(--dark-colour);
     border: 5px solid var(--light-colour);
     position: relative;
-    transition: all 0.3s ease;
+    transition: all var(--smooth) ease;
 }
 
 .ico {
@@ -16,7 +16,7 @@
     height: 40px;
     border-radius: 50%;
     background-color: var(--dark-colour);
-    transition: all 0.4s ease;
+    transition: all var(--smooth) ease;
     cursor: pointer;
     box-shadow: inset 12px -12px 0 0 var(--light-colour);  /* Added default moon shape */
 }

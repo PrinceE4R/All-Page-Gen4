@@ -2,6 +2,7 @@
     position: relative;
     width: 200px;
     height: 200px;
+    transition: all var(--smooth) ease;
 }
 
 .hexagon-body {
@@ -10,6 +11,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
+    transition: all var(--smooth) ease;
 }
 
 .hexagon-body svg {
@@ -17,6 +19,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: all var(--smooth) ease;
 }
 
 .seek-slider {
@@ -34,6 +37,7 @@
     background: var(--light-colour);
     cursor: pointer;
     z-index: 2;
+    transition: all var(--smooth) ease;
 }
 
 .seek-slider::-webkit-slider-thumb {
@@ -44,6 +48,7 @@
     border-radius: 10px;
     background: var(--dark-colour);
     cursor: pointer;
+    transition: all var(--smooth) ease;
 }
 
 .playtime {
@@ -57,6 +62,7 @@
     font-family: "Inria Sans", system-ui;
     font-weight: 400;
     z-index: 2;
+    transition: all var(--smooth) ease;
 }
 
 .play, .pause {
@@ -66,6 +72,7 @@
     transform: translateX(-50%);
     z-index: 2;
     cursor: pointer;
+    transition: all var(--smooth) ease;
 }
 
 .pause {
@@ -80,6 +87,7 @@
     width: 80px;
     height: 80px;
     z-index: 2;
+    transition: all var(--smooth) ease;
 }
 
 .visualizer {
@@ -87,6 +95,7 @@
     gap: 6px;
     height: 100%;
     align-items: flex-end;
+    transition: all var(--smooth) ease;
 }
 
 .bar {
@@ -95,6 +104,7 @@
     border-radius: 10px;
     height: 20px;
     transform-origin: bottom;
+    transition: all var(--quick) ease;
 }
 
 /* Hide the default audio controls */
