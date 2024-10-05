@@ -3,6 +3,7 @@
     --dark-colour: var(--system-light-secondary);
     --br: 15px;
     --smooth: 0.45s;
+    --medium: 0.3s;
     --quick: 0.15s;
     --apps-light-colour: var(--light-colour);
     --apps-dark-colour: var(--dark-colour);
